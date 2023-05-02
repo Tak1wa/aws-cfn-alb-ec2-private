@@ -231,3 +231,9 @@ Resources:
 Outputs:
   HogeSecurityGroup:
     Value: !Ref HogeSecurityGroup
+  LoadBalancerArn:
+    Value: !Ref InternalLoadBalancer
+  SubnetId1:
+    Value: !Ref ProtectedSubnet1
+  SubnetId2:
+    Value: !Ref ProtectedSubnet2
